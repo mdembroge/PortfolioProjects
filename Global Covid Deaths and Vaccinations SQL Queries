@@ -21,8 +21,6 @@ WHERE location like '%state%'
 and continent is not null
 ORDER BY 1,2
 
-alter table PortfolioProject..CovidDeaths alter column total_deaths DECIMAL
-
 --Looking at Total Cases vs Population
 
 SELECT location, date, population, total_cases, (total_cases/population)*100 as PercentPopulationInfected
