@@ -128,7 +128,7 @@ SET SoldasVacant = CASE WHEN SoldasVacant = 'Y' THEN 'Yes'
     END
 
 
-    --Removing Duplicates
+--Removing Duplicates
 
 
 WITH RowNumCTE AS(
